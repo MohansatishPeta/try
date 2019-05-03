@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--<![endif]-->
+<head>
+     <link rel="icon" type="image/png" href="resources/a.png"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <title>Nostalgia</title>
+
+  </head>
+
+<script>
+function show(shown, hidden) {
+  document.getElementById(shown).style.display='block';
+  document.getElementById(hidden).style.display='none';
+  return false;
+}
+</script>
+<style>
+ .bg {
+    /* The image used */
+    background-image: url("resources/bgm.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;}
+    .msfooter
+  {
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    font-size: 18px;
+	color:#fbfad3;
+  }
+  .msheader
+  {
+    position: fixed;
+    top: 1%;
+    left: 1.5%;
+    width: 25%;
+  }
+  .topnav {
+      font-size:17px;
+    position: absolute;
+    top: 1%;
+    right:1%;
+  overflow: hidden;
+
+}
+
+.topnav a {
+  float: left;
+  color: #E8E2DB;
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-style:bold;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+    background-color:#729d39;
+}
+.loginf{position:absolute;
+left:35%;
+top:10%;
+
+}
+.contactusf{
+   position: fixed;
+  top: 20%;
+  left:35%;
+    width:30%;
+    height:60%;
+    background-color:rgba(0,0,0,0.3);
+    margin:50 auto;
+    padding-top:2%;
+    padding-left:3%;
+    color:white;
+    border-radius:15px;
+    border-style: outset;
+
+
+}
+
+input[type="text"]{
+                          outline: none;
+                          font-size: 1.1em;
+                          padding: 2% 2% 2% 2%;
+                          border: none;
+                          margin: 0 0 0.05px 0;
+                          background: none;
+                          border-bottom: 1px solid #eee;
+                          width: 80%;
+                          color: #fff;
+                          font-weight: 600;
+
+}
+input[type="email"]{
+                          outline: none;
+                          font-size: 1.1em;
+                          padding: 2% 2% 2% 2%;
+                          border: none;
+                          margin: 0 0 0.05px 0;
+                          background: none;
+                          border-bottom: 1px solid #eee;
+                          width: 80%;
+                          color: #fff;
+                          font-weight: 600;
+
+}
+.contactusf input[type="textarea"]{
+			 padding: 5% 5% 5% 5%;
+                          width:80%;
+                          height:90%;
+                          border-radius:10px;
+                          -webkit-border-radius:5px;
+}
+
+.contactusf1{
+   position: fixed;
+  top: 10%;
+  left:35%;
+    width:30%;
+    height:80%;
+    border-style: outset;
+    background-color:rgba(0,0,0,0.2);
+    margin:50 auto;
+    padding-top:2%;
+    padding-left:4%;
+    color:white;
+    border-radius:10px;
+   -webkit-border-radius:10px;
+
+
+}
+input[type="date"]{
+                          outline: none;
+                          font-size: 1.1em;
+                          padding: 1px 1px;/*0.5% 0.5% 0.5% 0.5%;*/
+                          border: none;
+                          margin: 0 0 0.05px 0;
+                          background: none;
+                          border-bottom: 1px solid #eee;
+                          width: 80%;
+                          color: #fff;
+                          font-weight: 600;
+
+}
+input[type="text"]{
+                          outline: none;
+                          font-size: 1.1em;
+                          padding: 1px 1px;/*0.5% 0.5% 0.5% 0.5%;*/
+                          border: none;
+                          margin: 0 0 0.05px 0;
+                          background: none;
+                          border-bottom: 1px solid #eee;
+                          width: 80%;
+                          color: #fff;
+                          font-weight: 600;
+
+}
+input[type="password"]{
+                          outline: none;
+                          font-size: 1.1em;
+                          padding: 1px 1px;/*0.5% 0.5% 0.5% 0.5%;*/
+                          border: none;
+                          margin: 0 0 0.05px 0;
+                          background: none;
+                          border-bottom: 1px solid #eee;
+                          width: 80%;
+                          color: #fff;
+                          font-weight: 600;
+
+}
+.contactusf1 input[type="textarea"]{
+			 padding: 5% 5% 5% 5%;
+                          width:80%;
+                          height:90%;
+                          border-radius:5px;
+                          -webkit-border-radius:5px;
+}
+
+.cbtn{
+  font-family:garamond;
+font-weight: bold;
+ position:absolute;
+  left:15%;
+  height:12%;
+  width: 70%;
+  background-color: #ddd;
+  border: none;
+  color: black;
+   border-radius: 5px;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+.cbtn:hover{
+ background-color:#6F9709;
+ }
+}
+
+h2{
+font-size:30px;
+
+}
+a:link {
+  text-decoration: none;
+  color:yellow;
+  font-size:17px;
+}
+a:hover{
+  text-decoration: none;
+  color:orange;
+
+}
+.rainbow {
+  font-family:garamond;
+  font-size: 35px;
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.right{
+  position: absolute;
+  right: 10%;
+}
+</style>
+<body class=bg>
+
+     <!-- NAV SECTION -->
+         <div class="msheader">
+<a  href="index.html"><img src="resources/logo.png"   width="345" height="85">
+           </a>
+            </div>
+            <div class="topnav">
+                    <a href="index.html">HOME</a>
+                    <a class="active" href="login.html">LOGIN</a>
+                    <a href="aboutus.html">ABOUT US</a>
+                    <a  href="queries.html">QUERIES</a>
+
+            </div>
+
+        </div>
+
+     <!--END NAV SECTION -->
+    <section class="loginf">
+
+
+
+  <div id="Login">
+
+    <div class="contactusf">
+    <h2 class="rainbow"><center>LOGIN</center></h2>
+    <marquee width="80%" height="20%" onmouseover="this.stop()" onmouseout="this.start()" behavior="alternate"><img src="resources/logo.png" width="200" height="85"></marquee><br>
+
+  <form action="Login"  method="post" autocomplete="on">
+    <P class="fas fa-user">&nbsp&nbsp  </P><input type="text" name="mailid" placeholder="User Name" required><br><br>
+    <P class="fas fa-key">&nbsp&nbsp   </P><input type="password" name="userpass" placeholder="Password" id="myPsw" required><P class="fas fa-eye"onclick="myFunction()" ></P><br><br>
+              <input type="submit" value="Login" class="cbtn"><br>
+
+
+<br>
+<br>
+<br>
+<a href="#"><font style="color:pink">Forget password!!</font></a>
+
+  <a href="#" onclick="return show('SignUp','Login');" class="right"><font style="color:yellow">Create an Account</font></a>
+  </form>
+
+
+</div>
+
+  </div>
+
+  <div id="SignUp" style="display:none">
+    <div class="contactusf1">
+    <h2 class="rainbow"><center>Create Account</center></h2>
+
+  <form action="Register" method="post" autocomplete="on">
+   <P class="fas fa-user">&nbsp&nbsp  </P><input type="text" name="UserName" placeholder="Username" required><br><br>
+  <P class="fas fa-key">&nbsp&nbsp   </P><input type="password" name="PASSWORD" placeholder="Password" id="myPsw1" required><P class="fas fa-eye"onclick="myFunction1()" ></P><br><br>
+   <P class="fas fa-envelope">&nbsp&nbsp   </P><input type="email" name="EMAIL" placeholder="Mail" required><br><br>
+   <P class="fas fa-mobile">&nbsp&nbsp   </P><input type="text" name="MOBILE" placeholder="Mobile Number" required><br><br>
+   <P class="fas fa-calendar">&nbsp&nbspDate of Birth </P><input type="date" name="DOB" placeholder="Date of Birth" required><br>
+   <br>
+    <input type="submit" value="Create My Account" class="cbtn"><br>
+    <br>
+    <br><br>
+<br>
+<a href="#" onclick="return show('Login','SignUp');"><b>Login</b></a>
+
+  </form>
+</div>
+
+</div>
+
+  </div>
+
+
+            </section>
+
+
+    <!--HOME SECTION-->
+    <div class="msfooter">
+        Powered by team Nostalgia | Swarnandhra College of Engineering and Technology
+
+    </div>
+    <!-- END FOOTER SECTION -->
+  </div>
+  <script>
+function myFunction() {
+  var x = document.getElementById("myPsw");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+function myFunction1() {
+  var x = document.getElementById("myPsw1");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+
+</body>
+</html>

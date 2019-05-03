@@ -1,0 +1,226 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="icon" type="image/png" href="resources/a.png"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+  <title>Nostalgia</title>
+  </head>
+    <style>
+p{
+  
+  text-shadow: 1px 1px 2px crimson, 0 0 25px blue, 0 0 5px darkblue;
+  color:#bea0ee;
+
+}
+    .bg {
+    /* The image used */
+    background-image: url("resources/bgm.jpg");
+
+    /* Full height */
+    width:100%;
+    height:100%;
+
+    /* Center and scale the image nicely */
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;}
+    .msfooter
+  { color:#fbfad3;
+    position: fixed;
+    bottom: 1%;
+     right: 1%;
+    font-size: 18px;
+
+  }
+  .msheader
+  {
+    position: absolute;
+    top: 1%;
+    left: 1.5%;
+    width:25%;
+  }
+  .mshome
+{
+  position: fixed;
+  top: 15%;
+  left: 5%;
+  font-size: 18px;
+
+}
+.topnav {
+  position: fixed;
+  top: 1%;
+  right:1%;
+overflow: hidden;
+
+}
+
+.topnav a {
+  float: left;
+  color: #E8E2DB;
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-style:bold;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+    background-color:#729d39;
+}
+.left{
+  width: 30%;
+  height: 35%;
+    font-size: 20px;
+    background:rgba(1,0,1,0);
+  position: fixed;
+  top: 15%;
+  left:5%;
+  border: 0px solid violet;
+overflow: hidden;
+
+}
+.right{
+  font-size: 20px;
+  background:rgba(1,0,1,0);
+  position: fixed;
+  width: 30%;
+  height: 35%;
+top: 15%;
+right:5%;
+overflow: hidden;
+border: 0px solid violet;
+}
+.heading{
+  text-align: center;
+  color: 	#3366ff ;
+  font-family: cursive;
+  font-style: bold;
+}
+
+img:hover {
+  animation: shake 0.7s;
+  animation-iteration-count: infinite;
+}
+
+.float{
+  margin-left: 3%;
+  float: left;
+  margin-top: 12%;
+  width: 45%;
+  height: 90%;
+  font-size: 150%;
+  text-align: justify;
+  padding-bottom: 5%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #bea0ee;
+}
+
+.img{
+  float: right;
+}
+
+.quote{
+  font-family: fantasy;
+  opacity: initial;
+  color: black;
+  padding-left: 0%;
+}
+
+mark{
+  background-color: #ddd;
+}
+
+.cards{
+
+      width: 20%;
+      padding: 1%;
+      margin: 5%;
+      float: left;
+      text-align:center;
+      color: blue;
+}
+
+</style>
+<body class=bg>
+     <!-- NAV SECTION -->
+         <div class="msheader">
+
+
+         <a  href="index.html"><img src="resources/logo.png" width="345" height="85">
+         </a>  </div>
+            <div class="topnav">
+
+                    <a class="active" href="index.html">HOME</a>
+                    <a href="login.html">LOGIN</a>
+                    <a href="aboutus.html">ABOUT US</a>
+                    <a  href="queries.html">QUERIES</a>
+
+            </div>
+
+        </div>
+
+     <!--END NAV SECTION -->
+
+    <!--HOME SECTION-->
+    <div class="home">
+	<div class="float">
+    <div class="cards">
+      <img src="resources/f1.png" width="70%" height="70%" >
+      <p>Write Anywhere</p>
+    </div>
+    <div class="cards">
+        <img src="resources/f4.png" width="70%" height="70%">
+        <p>Secure</p>
+      </div>
+    <div class="cards">
+      <img src="resources/f2.png" width="70%" height="70%">
+      <p>Acess Globally</p>
+    </div>
+
+
+    <div class="cards">
+      <img src="resources/f5.png" width="70%" height="70%">
+     <p> Write Anything</p>
+    </div>
+    <div class="cards">
+        <img src="resources/f3.png" width="70%" height="70%">
+       <p> Privacy</p>
+      </div>
+  </div>
+	<div class="float">
+    <p>Everyone of us has an untold story, you just can't find a perfect platform to put it in words.
+    Nostalgia is just the platform to store your memories.</p><br>
+
+    <img src="resources/quote.png" style="display: inline-block;">
+    <label class="quote"><mark>Writing here is just like writing a personal auto-biography.</mark> </label>
+    <br><br>
+    <p>The worst part of the memories is not the pain, its the loneliness. Memories need to be stored.</p>
+    <br>
+    <img src="resources/quote.png" style="display: inline-block;"> <label class="quote"><mark>Memories warm you up from the inside.</mark> </label>
+    <br><br>
+   <p> Memories may be lost in the hidden registry of our mind.
+    Expressing yourselves in form of words or pictures here.</p>
+    <p>You can recall them anytime.</p>
+    <br>
+    <img src="resources/quote.png" style="display: inline-block;">
+    <label class="quote"><mark>Recalling your past self gives you happiness
+    which is one of it's kind. </mark></label>
+  </div>
+    </div>
+    <div class="msfooter">
+       Powered by team Nostalgia | Swarnandhra College of Engineering and Technology
+
+    </div>
+    <!-- END FOOTER SECTION -->
+  </div>
+</body>
+</html>
